@@ -1,3 +1,6 @@
+*{
+    margin: 10px;
+}
 .container{
     background-color: grey;
     border: 2px solid black;
@@ -27,11 +30,37 @@
     background-color: rgba(192, 142, 78, 0.904);
     padding: 10px;
 }
-.meals p{
+p{
     padding: 10px;
     font-weight: bold;
-    background-color: whitesmoke;
+    background-color: white;
+    color: black;
 }
-*{
-    margin: 10px;
+.how-to h2{
+    color: black;
+    text-align: center;
+    background-color: bisque;
+    margin-top: -10px;
+}
+.ingredients h3{
+    color: black;
+    padding: 5px;
+    /* text-align: center; */
+    background-color: bisque;
+}
+.ingredients > ul{
+    background-color: rgb(223, 128, 64);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.step h4{
+    color: black;
+    padding: 5px;
+    /* text-align: center; */
+    background-color: bisque;
+}
+.step > ol{
+    background-color: rgb(223, 128, 64);
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
